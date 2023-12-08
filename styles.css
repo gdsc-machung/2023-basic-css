@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+    height: 100vh;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-about {
+    background-color: #333;
+    color: white;
+}
+
+.section-skill {
+    background-color: #574936;
+    color: white;
+}
+
+.section-gallery {
+    background-color: #77685c;
+    color: white;
+}
+
+.section-contact {
+    background-color: #000;
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.text {
+    max-width: 600px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: sienna;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+form button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
